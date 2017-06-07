@@ -1,0 +1,39 @@
+body {
+  background-color: #A56D6D;
+  text-align: center;
+}
+header {
+  margin: auto;
+  margin-top: 3%;
+  margin-bottom: 3%;
+  text-align: center;
+  width: 90%;
+  max-width: 1000px;
+}
+
+p {
+	text-align: center;
+	font-size: 25px;
+	margin: 2%;
+}
+
+footer {
+	margin: 2%;
+	font-size: 20px;
+}
+.content {
+  min-height: 100px;
+}
+
+.hidden-text {
+  visibility: hidden;
+  height: auto;
+}
+
+.visible-text {
+  visibility: visible;
+  text-align: center;
+  margin: auto;  
+  font-size: 130px;
+  transition: all 2s;
+}
